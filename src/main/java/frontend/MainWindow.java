@@ -1,8 +1,6 @@
 package frontend;
 
 import javax.swing.*;
-import javax.swing.plaf.TabbedPaneUI;
-import javax.swing.plaf.basic.BasicTabbedPaneUI;
 
 public class MainWindow extends JFrame {
 
@@ -20,6 +18,7 @@ public class MainWindow extends JFrame {
         this.add(tabpane);
 
         this.setVisible(true);
+
 
     }
 }
